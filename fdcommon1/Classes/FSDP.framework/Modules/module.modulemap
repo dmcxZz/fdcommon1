@@ -1,0 +1,6 @@
+framework module FSDP {
+  umbrella header "FSDP.h"
+
+  export *
+  module * { export * }
+}
