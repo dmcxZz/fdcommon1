@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'fdcommon1/Classes/**/*'
-  s.frameworks = 'fdcommon1/Classes/FSDP.framework'
+  s.vendored_frameworks = 'fdcommon1/Classes/FSDP.framework'
   
   # s.resource_bundles = {
   #   'fdcommon1' => ['fdcommon1/Assets/*.png']
