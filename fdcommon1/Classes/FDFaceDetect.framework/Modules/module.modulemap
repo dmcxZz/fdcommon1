@@ -1,0 +1,6 @@
+framework module FDFaceDetect {
+  umbrella header "FDFaceDetect.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,6 @@
 {
   "name": "fdcommon1",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "一个简单的描述",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dmcxZz/fdcommon1",
@@ -13,10 +13,13 @@
   },
   "source": {
     "git": "https://github.com/dmcxZz/fdcommon1.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "fdcommon1/Classes/**/*"
+  "source_files": "fdcommon1/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": "fdcommon1/Classes/FSDP.framework"
+  }
 }

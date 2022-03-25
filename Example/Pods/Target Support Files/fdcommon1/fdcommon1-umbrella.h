@@ -12,6 +12,7 @@
 
 #import "AESUtil.h"
 #import "Base64Util.h"
+#import "FSDP.h"
 
 FOUNDATION_EXPORT double fdcommon1VersionNumber;
 FOUNDATION_EXPORT const unsigned char fdcommon1VersionString[];

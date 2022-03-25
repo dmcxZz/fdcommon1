@@ -1,5 +1,5 @@
 PODS:
-  - fdcommon1 (1.0.0)
+  - fdcommon1 (1.0.2)
 
 DEPENDENCIES:
   - fdcommon1 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  fdcommon1: 7a0660dd046c226c949b5f8080e2411868ae6b6c
+  fdcommon1: 1faf3efe60731bc32d42d934178084e18dd6039c
 
 PODFILE CHECKSUM: fbbab2df465d96bce1bf11cb05da478cb4cfc365
 

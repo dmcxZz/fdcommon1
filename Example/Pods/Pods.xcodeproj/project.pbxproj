@@ -7,76 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		280D6F293D777742538A72479E7C30EC /* fdcommon1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D393CC291EA7044B4CF069C68568A /* fdcommon1-dummy.m */; };
+		2587B0738C9EC3DF4843E8659CBF897B /* FSDP.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E070541549D8B9BBDCB04181596062 /* FSDP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31242A9A0A4655879B41701DB9F1E218 /* fdcommon1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7B911BAE0D2845417D231AE18ED8D3 /* fdcommon1-dummy.m */; };
+		38E9ED8E943EAF3082BB2ADE79768CD7 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = CEB1DD23CB9E19E32EDEC508191929A9 /* CodeResources */; };
+		3913ED70CF832DEA43E9D3DE46E7A5CC /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = 22C20082CA1F9F4C85DCB2DE7E6F0E90 /* CodeRequirements */; };
+		410D13AB8B4D2523395D7BA647918D6C /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = C27F667EC3712060D02FF2529236BAC9 /* module.modulemap */; };
 		42A3D42BC0405F6399E030D425910B92 /* Pods-fdcommon1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B10CD511FAF0F89F74BC7D9B32520488 /* Pods-fdcommon1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74A96C9D65833FC79CA5105187EA8615 /* fdcommon1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C07ACA58D54E89B5A9E3C11DE179C6 /* fdcommon1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8140525F459C9D2016B953C9C94A6A4B /* AESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E96AE13601472F8B3625B71006209C31 /* AESUtil.m */; };
-		8D75CA4D6B28DB291343698D5D76972B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8F2B7CE3C9156A9727B25CECC2DB7D80 /* Base64Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 960684985FF3DD55A46F846C3695B8C7 /* Base64Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A21C86E366D3191158D8E1968C40D9BB /* AESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B486B54AB517BE0A4F4884C2C3B07233 /* AESUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB51BDCBB83E21401C5FDEBD380B2648 /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2670885C731830E63DC5A7A5F57797E3 /* Base64Util.m */; };
+		4B89159E4695CC675BD1B337FB2CB4A9 /* fdcommon1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6193BA872584B27D6CC56522C14CDA /* fdcommon1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56FCD72F247E2BDAA27955DDE448BC20 /* FSDP in Sources */ = {isa = PBXBuildFile; fileRef = D4C3F8775471068C37D9994081444A95 /* FSDP */; };
+		5FC1C5ACB56B1F926D61587F73F34DB1 /* AESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADB672DF9620348686102270E3EE8C /* AESUtil.m */; };
+		6AFA17A9590A84CBB7807EDB90EC367E /* CardCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = AD93D28B90B76311388F2D58739927AF /* CardCell.nib */; };
+		792C4BB16BA214E1BD682057A71F66AA /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FBAC7BEBAAB1AC56308D75008067F6 /* Base64Util.m */; };
+		83AFAB20D281721A50F1B696E492A140 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = EEA3C38E8F34EBBAB2481E890C0FFDCD /* CodeSignature */; };
+		868FA8BEC1EC9FF8E8029C380C72DD88 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 3885BCC7FEC924B55A976E05FC36292A /* Info.plist */; };
+		8D9C8E31C45BD1460B2B162AD7A75E8E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A00B1FC5DD6F3DEF2EE2DA0C176EC9B /* ReplaceMe.m */; };
+		8E4BFC3AF26A2EDEFCDA6964FFC4905A /* objects-11.0+.nib in Sources */ = {isa = PBXBuildFile; fileRef = 86135A8803634DBCD453FF1F43470BE4 /* objects-11.0+.nib */; };
+		9111A29C3AE356FCD927103254187340 /* objects-12.3+.nib in Sources */ = {isa = PBXBuildFile; fileRef = 8862534B92A15A697613455E5E42BC41 /* objects-12.3+.nib */; };
+		925629BA31BD1049E131010C22C1C71B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		94A56451B52B7201521284D6B5E2C4C2 /* ListCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = 49B7FC6419E357BC90D4C1144D5B934E /* ListCell.nib */; };
+		A65D74B9349872670BC2A16152C779B1 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = E1E00FB309BCCEC9A23F5CDD8A2B456A /* CodeDirectory */; };
 		C463FA0375141BCFF8DB711BA8886493 /* Pods-fdcommon1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697A5950E8D6C49D3693843834DD3C82 /* Pods-fdcommon1_Example-dummy.m */; };
-		C781D6FE50E53680AE4B1F0D2E074556 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA83100AA2DB671ED2A790F9AB4FB6 /* ReplaceMe.m */; };
+		C61D9A7F1A69955CEA4432A9466608FE /* beep.wav in Sources */ = {isa = PBXBuildFile; fileRef = 2213AE7C14844BB485554D2B52FD0832 /* beep.wav */; };
 		C8502BECD0FC9869E390F99484490810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D51AF8AFB3B849C17FB41067D7D825B9 /* AESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BECB32494A4DECC02DD3E8C031B0B5B1 /* AESUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D88AB8E9E6638477D6EDDA9B5B28D1CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E11DE61CF26FA25FB815F5FF94755F43 /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = F52532B239989570DD83B8D2F40D2FD9 /* CodeRequirements-1 */; };
 		E202F469A89C7151078A1329557707B7 /* Pods-fdcommon1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A955B45F44E0C26F582351E27C266EB4 /* Pods-fdcommon1_Tests-dummy.m */; };
+		E21963FCBD41FF240CD793409E8C4456 /* Base64Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E278E0BDF82B8CEB0DDA4E2C6397C9 /* Base64Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4BA0D85DD8E41D13FDF00849EF1CA87 /* Pods-fdcommon1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60406A8130057BC5C8641795BEDCFC53 /* Pods-fdcommon1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B8B776AC24F1AACB7948C0B6A69261 /* runtime.nib in Sources */ = {isa = PBXBuildFile; fileRef = 32387B76DAC86A2C545DFAB351543673 /* runtime.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02F7AAC3B568B80F81060B1604B62560 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5152684F8D9DB0A0CD41BC2E8BF57158;
-			remoteInfo = "Pods-fdcommon1_Example";
-		};
-		97739EECBC77BEC07A91CA3073FCCF17 /* PBXContainerItemProxy */ = {
+		86F3AD982581CEF9218B7178B4706B66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4334DD7E02BE47E38442828DA33BD4D9;
 			remoteInfo = fdcommon1;
 		};
+		F37538F09F2B55D5AAB215AC727D8D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5152684F8D9DB0A0CD41BC2E8BF57158;
+			remoteInfo = "Pods-fdcommon1_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B390A03C5524A34F7AF5440ECD85FE /* fdcommon1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fdcommon1.release.xcconfig; sourceTree = "<group>"; };
 		0635542A1699106D43E755B107C861D8 /* Pods-fdcommon1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fdcommon1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		19C07ACA58D54E89B5A9E3C11DE179C6 /* fdcommon1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fdcommon1-umbrella.h"; sourceTree = "<group>"; };
+		180B3E559E39FC95034A502313EE26D5 /* fdcommon1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = fdcommon1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B7B6409AA15CD10F87F91B1207633E0 /* Pods-fdcommon1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fdcommon1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		261D1C89AAB39DDBA1F8673567CDE989 /* fdcommon1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fdcommon1-prefix.pch"; sourceTree = "<group>"; };
-		2670885C731830E63DC5A7A5F57797E3 /* Base64Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64Util.m; path = fdcommon1/Classes/Base64Util.m; sourceTree = "<group>"; };
+		1C6193BA872584B27D6CC56522C14CDA /* fdcommon1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fdcommon1-umbrella.h"; sourceTree = "<group>"; };
+		2213AE7C14844BB485554D2B52FD0832 /* beep.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = beep.wav; sourceTree = "<group>"; };
+		22C20082CA1F9F4C85DCB2DE7E6F0E90 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
+		25E701F0BB917DD2A9A3B25FD7D12301 /* fdcommon1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fdcommon1-Info.plist"; sourceTree = "<group>"; };
+		27E070541549D8B9BBDCB04181596062 /* FSDP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSDP.h; sourceTree = "<group>"; };
 		2F2EE1B41C6A0D625B1BC7AB5B194EDD /* Pods-fdcommon1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fdcommon1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		316F224D70DD3A14C2797F8EDD106514 /* Pods-fdcommon1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fdcommon1_Example-frameworks.sh"; sourceTree = "<group>"; };
 		31C619F6147799C6C29162EE3A865963 /* Pods_fdcommon1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fdcommon1_Example.framework; path = "Pods-fdcommon1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB97F5750C96580B84DCE6D7349706 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32387B76DAC86A2C545DFAB351543673 /* runtime.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = runtime.nib; sourceTree = "<group>"; };
 		342F096ACF00F23DF6F0ED01A019DC57 /* Pods-fdcommon1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fdcommon1_Example.release.xcconfig"; sourceTree = "<group>"; };
-		371F041D5C34D1BC1F5BD22F72E51464 /* fdcommon1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fdcommon1-Info.plist"; sourceTree = "<group>"; };
-		389E71AE85B360D1F78C15AFE9C3A0C0 /* fdcommon1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = fdcommon1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3A8C9F31A8B891F1E84521B9FBFE0C24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3885BCC7FEC924B55A976E05FC36292A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B7FC6419E357BC90D4C1144D5B934E /* ListCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = ListCell.nib; sourceTree = "<group>"; };
+		51E278E0BDF82B8CEB0DDA4E2C6397C9 /* Base64Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64Util.h; path = fdcommon1/Classes/Base64Util.h; sourceTree = "<group>"; };
+		56B8851739ECF0D2CD68CA1AE92897B8 /* FSDP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSDP.framework; path = fdcommon1/Classes/FSDP.framework; sourceTree = "<group>"; };
+		57FBAC7BEBAAB1AC56308D75008067F6 /* Base64Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64Util.m; path = fdcommon1/Classes/Base64Util.m; sourceTree = "<group>"; };
 		5BBB1402F733948A96473D447D7D5D14 /* Pods-fdcommon1_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fdcommon1_Example-Info.plist"; sourceTree = "<group>"; };
 		5BBEC43BE218365C5C7C7540A495AEC5 /* Pods-fdcommon1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fdcommon1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		60406A8130057BC5C8641795BEDCFC53 /* Pods-fdcommon1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fdcommon1_Tests-umbrella.h"; sourceTree = "<group>"; };
 		697A5950E8D6C49D3693843834DD3C82 /* Pods-fdcommon1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fdcommon1_Example-dummy.m"; sourceTree = "<group>"; };
 		6AB8470ED2CF9BAA0417F32145D910C0 /* Pods_fdcommon1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fdcommon1_Tests.framework; path = "Pods-fdcommon1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		960684985FF3DD55A46F846C3695B8C7 /* Base64Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64Util.h; path = fdcommon1/Classes/Base64Util.h; sourceTree = "<group>"; };
+		7A00B1FC5DD6F3DEF2EE2DA0C176EC9B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = fdcommon1/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		86135A8803634DBCD453FF1F43470BE4 /* objects-11.0+.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = "objects-11.0+.nib"; sourceTree = "<group>"; };
+		8862534B92A15A697613455E5E42BC41 /* objects-12.3+.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = "objects-12.3+.nib"; sourceTree = "<group>"; };
 		9A430E32BEFCB3322A2074C652B98757 /* Pods-fdcommon1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fdcommon1_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0FA83100AA2DB671ED2A790F9AB4FB6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = fdcommon1/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9DA54E41604B39762049231A4DDC1333 /* fdcommon1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fdcommon1.modulemap; sourceTree = "<group>"; };
 		A2FBA4F854BFF9E3A94E2F1774F65D5A /* Pods-fdcommon1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fdcommon1_Tests.modulemap"; sourceTree = "<group>"; };
+		A59196E4797CD4C147174B2274D2C9A9 /* fdcommon1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fdcommon1-prefix.pch"; sourceTree = "<group>"; };
 		A955B45F44E0C26F582351E27C266EB4 /* Pods-fdcommon1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fdcommon1_Tests-dummy.m"; sourceTree = "<group>"; };
-		ADDEB1C395E18E0E79AD229E55367C48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AF211E5F85715167ED0C56C7366DCE69 /* fdcommon1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fdcommon1.debug.xcconfig; sourceTree = "<group>"; };
+		AD93D28B90B76311388F2D58739927AF /* CardCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = CardCell.nib; sourceTree = "<group>"; };
 		B10CD511FAF0F89F74BC7D9B32520488 /* Pods-fdcommon1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fdcommon1_Example-umbrella.h"; sourceTree = "<group>"; };
-		B486B54AB517BE0A4F4884C2C3B07233 /* AESUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AESUtil.h; path = fdcommon1/Classes/AESUtil.h; sourceTree = "<group>"; };
-		BB79922BBD78CF1D8DFCA164E1F8BCA7 /* fdcommon1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fdcommon1.modulemap; sourceTree = "<group>"; };
+		BD527F3721C8B5AF7773AA99672EE700 /* fdcommon1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fdcommon1.release.xcconfig; sourceTree = "<group>"; };
+		BECB32494A4DECC02DD3E8C031B0B5B1 /* AESUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AESUtil.h; path = fdcommon1/Classes/AESUtil.h; sourceTree = "<group>"; };
+		BF70BAC9A6AD32ADF14E318329267400 /* runtime.nib */ = {isa = PBXFileReference; includeInIndex = 1; path = runtime.nib; sourceTree = "<group>"; };
+		C27F667EC3712060D02FF2529236BAC9 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		CE952498420AFE299CD0076EE83F2860 /* fdcommon1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fdcommon1.debug.xcconfig; sourceTree = "<group>"; };
+		CEB1DD23CB9E19E32EDEC508191929A9 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		D4C3F8775471068C37D9994081444A95 /* FSDP */ = {isa = PBXFileReference; includeInIndex = 1; path = FSDP; sourceTree = "<group>"; };
 		D6F9A43E042F2D6213C08494FB7F6FE3 /* Pods-fdcommon1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fdcommon1_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D92D393CC291EA7044B4CF069C68568A /* fdcommon1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fdcommon1-dummy.m"; sourceTree = "<group>"; };
 		D95F9634857F60E66C4D351D8657C02D /* fdcommon1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fdcommon1.framework; path = fdcommon1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7B911BAE0D2845417D231AE18ED8D3 /* fdcommon1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fdcommon1-dummy.m"; sourceTree = "<group>"; };
+		DE03F81D5A73A2B6DEF48E1359092DAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E1E00FB309BCCEC9A23F5CDD8A2B456A /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
 		E21283F82157102F59FED92D15F141E7 /* Pods-fdcommon1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fdcommon1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E40BBEB6978F9556956EBA16BD7C9E00 /* Pods-fdcommon1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fdcommon1_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E96AE13601472F8B3625B71006209C31 /* AESUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AESUtil.m; path = fdcommon1/Classes/AESUtil.m; sourceTree = "<group>"; };
+		EEA3C38E8F34EBBAB2481E890C0FFDCD /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		F52532B239989570DD83B8D2F40D2FD9 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		FBADB672DF9620348686102270E3EE8C /* AESUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AESUtil.m; path = fdcommon1/Classes/AESUtil.m; sourceTree = "<group>"; };
 		FD7B37D2F1562692173F594E2E605085 /* Pods-fdcommon1_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fdcommon1_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,14 +121,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E7F794676491F57BB1D07F277A1430D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D75CA4D6B28DB291343698D5D76972B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7DC5C06681DF45540EFBFF7B87A24DD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,32 +129,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		927C2AD5FD760FC0DA2F352DA533C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925629BA31BD1049E131010C22C1C71B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0306C4FF4A1F5E3C6B82248B9A252A40 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				07032AAAACEAA7842829D76FF7DCF450 /* fdcommon1 */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		07032AAAACEAA7842829D76FF7DCF450 /* fdcommon1 */ = {
-			isa = PBXGroup;
-			children = (
-				B486B54AB517BE0A4F4884C2C3B07233 /* AESUtil.h */,
-				E96AE13601472F8B3625B71006209C31 /* AESUtil.m */,
-				960684985FF3DD55A46F846C3695B8C7 /* Base64Util.h */,
-				2670885C731830E63DC5A7A5F57797E3 /* Base64Util.m */,
-				A0FA83100AA2DB671ED2A790F9AB4FB6 /* ReplaceMe.m */,
-				AB79255133775979441FE32A1C4FE0AB /* Pod */,
-				5B643AEA0BDA094B99D64D025F386804 /* Support Files */,
-			);
-			name = fdcommon1;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0A8F44FDA32B4828D1399CCB870047D2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +147,23 @@
 				CD8751FE398ACBD397F8DDD1CF906951 /* Pods-fdcommon1_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14E4FC1099616ED3F88D4179F1224B73 /* fdcommon1 */ = {
+			isa = PBXGroup;
+			children = (
+				BECB32494A4DECC02DD3E8C031B0B5B1 /* AESUtil.h */,
+				FBADB672DF9620348686102270E3EE8C /* AESUtil.m */,
+				51E278E0BDF82B8CEB0DDA4E2C6397C9 /* Base64Util.h */,
+				57FBAC7BEBAAB1AC56308D75008067F6 /* Base64Util.m */,
+				7A00B1FC5DD6F3DEF2EE2DA0C176EC9B /* ReplaceMe.m */,
+				EC2244E7C6E190B9C99CA6E42AD2FFA9 /* Frameworks */,
+				BF0D691F40130CE63082D20084C0F820 /* FSDP.framework */,
+				9C6E4253C349FB2C46BF7225E92F04F4 /* Pod */,
+				392A0A0286092E7C3BF7EEBDD5E67A55 /* Support Files */,
+			);
+			name = fdcommon1;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		341370C15FADDF16A046606A9F379FC1 /* Pods-fdcommon1_Example */ = {
@@ -157,29 +183,75 @@
 			path = "Target Support Files/Pods-fdcommon1_Example";
 			sourceTree = "<group>";
 		};
-		5B643AEA0BDA094B99D64D025F386804 /* Support Files */ = {
+		392A0A0286092E7C3BF7EEBDD5E67A55 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB79922BBD78CF1D8DFCA164E1F8BCA7 /* fdcommon1.modulemap */,
-				D92D393CC291EA7044B4CF069C68568A /* fdcommon1-dummy.m */,
-				371F041D5C34D1BC1F5BD22F72E51464 /* fdcommon1-Info.plist */,
-				261D1C89AAB39DDBA1F8673567CDE989 /* fdcommon1-prefix.pch */,
-				19C07ACA58D54E89B5A9E3C11DE179C6 /* fdcommon1-umbrella.h */,
-				AF211E5F85715167ED0C56C7366DCE69 /* fdcommon1.debug.xcconfig */,
-				00B390A03C5524A34F7AF5440ECD85FE /* fdcommon1.release.xcconfig */,
+				9DA54E41604B39762049231A4DDC1333 /* fdcommon1.modulemap */,
+				DB7B911BAE0D2845417D231AE18ED8D3 /* fdcommon1-dummy.m */,
+				25E701F0BB917DD2A9A3B25FD7D12301 /* fdcommon1-Info.plist */,
+				A59196E4797CD4C147174B2274D2C9A9 /* fdcommon1-prefix.pch */,
+				1C6193BA872584B27D6CC56522C14CDA /* fdcommon1-umbrella.h */,
+				CE952498420AFE299CD0076EE83F2860 /* fdcommon1.debug.xcconfig */,
+				BD527F3721C8B5AF7773AA99672EE700 /* fdcommon1.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/fdcommon1";
 			sourceTree = "<group>";
 		};
-		AB79255133775979441FE32A1C4FE0AB /* Pod */ = {
+		80B8AEDA06EFBD57DC91EC3180A635EC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				389E71AE85B360D1F78C15AFE9C3A0C0 /* fdcommon1.podspec */,
-				ADDEB1C395E18E0E79AD229E55367C48 /* LICENSE */,
-				3A8C9F31A8B891F1E84521B9FBFE0C24 /* README.md */,
+				C27F667EC3712060D02FF2529236BAC9 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8EF28C9B279D001974794AEF6E8FCB62 /* LoginUI.nib */ = {
+			isa = PBXGroup;
+			children = (
+				86135A8803634DBCD453FF1F43470BE4 /* objects-11.0+.nib */,
+				32387B76DAC86A2C545DFAB351543673 /* runtime.nib */,
+			);
+			name = LoginUI.nib;
+			path = LoginUI.nib;
+			sourceTree = "<group>";
+		};
+		9912664101A87B54941F3562E9BFC823 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				27E070541549D8B9BBDCB04181596062 /* FSDP.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		9C6E4253C349FB2C46BF7225E92F04F4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				180B3E559E39FC95034A502313EE26D5 /* fdcommon1.podspec */,
+				31FB97F5750C96580B84DCE6D7349706 /* LICENSE */,
+				DE03F81D5A73A2B6DEF48E1359092DAD /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		BF0D691F40130CE63082D20084C0F820 /* FSDP.framework */ = {
+			isa = PBXGroup;
+			children = (
+				2213AE7C14844BB485554D2B52FD0832 /* beep.wav */,
+				AD93D28B90B76311388F2D58739927AF /* CardCell.nib */,
+				D4C3F8775471068C37D9994081444A95 /* FSDP */,
+				3885BCC7FEC924B55A976E05FC36292A /* Info.plist */,
+				49B7FC6419E357BC90D4C1144D5B934E /* ListCell.nib */,
+				C1FCB41C79055C53B676A955D73A36B5 /* _CodeSignature */,
+				D5B616620E2F3784675D7CDA32E3A9A9 /* GridCell.nib */,
+				9912664101A87B54941F3562E9BFC823 /* Headers */,
+				8EF28C9B279D001974794AEF6E8FCB62 /* LoginUI.nib */,
+				80B8AEDA06EFBD57DC91EC3180A635EC /* Modules */,
+			);
+			name = FSDP.framework;
+			path = fdcommon1/Classes/FSDP.framework;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -188,6 +260,19 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1FCB41C79055C53B676A955D73A36B5 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				E1E00FB309BCCEC9A23F5CDD8A2B456A /* CodeDirectory */,
+				22C20082CA1F9F4C85DCB2DE7E6F0E90 /* CodeRequirements */,
+				F52532B239989570DD83B8D2F40D2FD9 /* CodeRequirements-1 */,
+				CEB1DD23CB9E19E32EDEC508191929A9 /* CodeResources */,
+				EEA3C38E8F34EBBAB2481E890C0FFDCD /* CodeSignature */,
+			);
+			name = _CodeSignature;
+			path = _CodeSignature;
 			sourceTree = "<group>";
 		};
 		CD8751FE398ACBD397F8DDD1CF906951 /* Pods-fdcommon1_Tests */ = {
@@ -210,7 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0306C4FF4A1F5E3C6B82248B9A252A40 /* Development Pods */,
+				E9FF6D4B5005A3C4C5A6AF243B1CEFF7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F75D722E1948BD9D0E20C519DD23F3AA /* Products */,
 				0A8F44FDA32B4828D1399CCB870047D2 /* Targets Support Files */,
@@ -221,6 +306,32 @@
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B616620E2F3784675D7CDA32E3A9A9 /* GridCell.nib */ = {
+			isa = PBXGroup;
+			children = (
+				8862534B92A15A697613455E5E42BC41 /* objects-12.3+.nib */,
+				BF70BAC9A6AD32ADF14E318329267400 /* runtime.nib */,
+			);
+			name = GridCell.nib;
+			path = GridCell.nib;
+			sourceTree = "<group>";
+		};
+		E9FF6D4B5005A3C4C5A6AF243B1CEFF7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14E4FC1099616ED3F88D4179F1224B73 /* fdcommon1 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EC2244E7C6E190B9C99CA6E42AD2FFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56B8851739ECF0D2CD68CA1AE92897B8 /* FSDP.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,13 +357,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50E2D6217F2F29198DB33338C7BE2D5B /* Headers */ = {
+		5E6A098B6DE5EADEA4CC18F4F0C064F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21C86E366D3191158D8E1968C40D9BB /* AESUtil.h in Headers */,
-				8F2B7CE3C9156A9727B25CECC2DB7D80 /* Base64Util.h in Headers */,
-				74A96C9D65833FC79CA5105187EA8615 /* fdcommon1-umbrella.h in Headers */,
+				D51AF8AFB3B849C17FB41067D7D825B9 /* AESUtil.h in Headers */,
+				E21963FCBD41FF240CD793409E8C4456 /* Base64Util.h in Headers */,
+				4B89159E4695CC675BD1B337FB2CB4A9 /* fdcommon1-umbrella.h in Headers */,
+				2587B0738C9EC3DF4843E8659CBF897B /* FSDP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +381,12 @@
 /* Begin PBXNativeTarget section */
 		4334DD7E02BE47E38442828DA33BD4D9 /* fdcommon1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B062D29CC0B6D74E15F866E105E335B /* Build configuration list for PBXNativeTarget "fdcommon1" */;
+			buildConfigurationList = B5BC4EFF4B2C0B253FD5199536B2ADD8 /* Build configuration list for PBXNativeTarget "fdcommon1" */;
 			buildPhases = (
-				50E2D6217F2F29198DB33338C7BE2D5B /* Headers */,
-				42272EA3F88E0A3900CEC2814E41511C /* Sources */,
-				1E7F794676491F57BB1D07F277A1430D /* Frameworks */,
-				103462DD6940CC48940E76A126F9A9BE /* Resources */,
+				5E6A098B6DE5EADEA4CC18F4F0C064F7 /* Headers */,
+				CEE313EEF45227B3603FFCD1A9207E80 /* Sources */,
+				927C2AD5FD760FC0DA2F352DA533C3C6 /* Frameworks */,
+				B648F29D90CE16321F2739B52F8C85E7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -297,7 +409,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AC69C70251F5D35B9BEB2AF9D9691FD8 /* PBXTargetDependency */,
+				785D685D6982214EE297BABE4DC23C0E /* PBXTargetDependency */,
 			);
 			name = "Pods-fdcommon1_Example";
 			productName = "Pods-fdcommon1_Example";
@@ -316,7 +428,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FF8B1F571ADCB29E47ED8A40E0805CE6 /* PBXTargetDependency */,
+				2A02EB93D44DB3B8A6B7708E34F5C6F3 /* PBXTargetDependency */,
 			);
 			name = "Pods-fdcommon1_Tests";
 			productName = "Pods-fdcommon1_Tests";
@@ -353,13 +465,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		103462DD6940CC48940E76A126F9A9BE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		49FA8469AEEFA6FF82A115328F54D4F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,20 +479,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		42272EA3F88E0A3900CEC2814E41511C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		B648F29D90CE16321F2739B52F8C85E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8140525F459C9D2016B953C9C94A6A4B /* AESUtil.m in Sources */,
-				AB51BDCBB83E21401C5FDEBD380B2648 /* Base64Util.m in Sources */,
-				280D6F293D777742538A72479E7C30EC /* fdcommon1-dummy.m in Sources */,
-				C781D6FE50E53680AE4B1F0D2E074556 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		B0DD2EFC3A963F156DEF583B8D9082EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,20 +505,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEE313EEF45227B3603FFCD1A9207E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC1C5ACB56B1F926D61587F73F34DB1 /* AESUtil.m in Sources */,
+				792C4BB16BA214E1BD682057A71F66AA /* Base64Util.m in Sources */,
+				C61D9A7F1A69955CEA4432A9466608FE /* beep.wav in Sources */,
+				6AFA17A9590A84CBB7807EDB90EC367E /* CardCell.nib in Sources */,
+				A65D74B9349872670BC2A16152C779B1 /* CodeDirectory in Sources */,
+				3913ED70CF832DEA43E9D3DE46E7A5CC /* CodeRequirements in Sources */,
+				E11DE61CF26FA25FB815F5FF94755F43 /* CodeRequirements-1 in Sources */,
+				38E9ED8E943EAF3082BB2ADE79768CD7 /* CodeResources in Sources */,
+				83AFAB20D281721A50F1B696E492A140 /* CodeSignature in Sources */,
+				31242A9A0A4655879B41701DB9F1E218 /* fdcommon1-dummy.m in Sources */,
+				56FCD72F247E2BDAA27955DDE448BC20 /* FSDP in Sources */,
+				868FA8BEC1EC9FF8E8029C380C72DD88 /* Info.plist in Sources */,
+				94A56451B52B7201521284D6B5E2C4C2 /* ListCell.nib in Sources */,
+				410D13AB8B4D2523395D7BA647918D6C /* module.modulemap in Sources */,
+				8E4BFC3AF26A2EDEFCDA6964FFC4905A /* objects-11.0+.nib in Sources */,
+				9111A29C3AE356FCD927103254187340 /* objects-12.3+.nib in Sources */,
+				8D9C8E31C45BD1460B2B162AD7A75E8E /* ReplaceMe.m in Sources */,
+				F0B8B776AC24F1AACB7948C0B6A69261 /* runtime.nib in Sources */,
+				F0B8B776AC24F1AACB7948C0B6A69261 /* runtime.nib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC69C70251F5D35B9BEB2AF9D9691FD8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = fdcommon1;
-			target = 4334DD7E02BE47E38442828DA33BD4D9 /* fdcommon1 */;
-			targetProxy = 97739EECBC77BEC07A91CA3073FCCF17 /* PBXContainerItemProxy */;
-		};
-		FF8B1F571ADCB29E47ED8A40E0805CE6 /* PBXTargetDependency */ = {
+		2A02EB93D44DB3B8A6B7708E34F5C6F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-fdcommon1_Example";
 			target = 5152684F8D9DB0A0CD41BC2E8BF57158 /* Pods-fdcommon1_Example */;
-			targetProxy = 02F7AAC3B568B80F81060B1604B62560 /* PBXContainerItemProxy */;
+			targetProxy = F37538F09F2B55D5AAB215AC727D8D30 /* PBXContainerItemProxy */;
+		};
+		785D685D6982214EE297BABE4DC23C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fdcommon1;
+			target = 4334DD7E02BE47E38442828DA33BD4D9 /* fdcommon1 */;
+			targetProxy = 86F3AD982581CEF9218B7178B4706B66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,9 +583,40 @@
 			};
 			name = Release;
 		};
-		8A79B77996C1EA69D1E0E4917310D09C /* Release */ = {
+		6A946B4BF7126F6EE4C2D897F09893AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B390A03C5524A34F7AF5440ECD85FE /* fdcommon1.release.xcconfig */;
+			baseConfigurationReference = CE952498420AFE299CD0076EE83F2860 /* fdcommon1.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fdcommon1/fdcommon1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fdcommon1/fdcommon1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fdcommon1/fdcommon1.modulemap";
+				PRODUCT_MODULE_NAME = fdcommon1;
+				PRODUCT_NAME = fdcommon1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C9E35EEDB01BF94A1C0E8E668CCE64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD527F3721C8B5AF7773AA99672EE700 /* fdcommon1.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -679,37 +837,6 @@
 			};
 			name = Debug;
 		};
-		A6436D9D2BCA57171EAA3FA2F6043C46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF211E5F85715167ED0C56C7366DCE69 /* fdcommon1.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/fdcommon1/fdcommon1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fdcommon1/fdcommon1-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/fdcommon1/fdcommon1.modulemap";
-				PRODUCT_MODULE_NAME = fdcommon1;
-				PRODUCT_NAME = fdcommon1;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AF6A2CFAB3E25D02B82231BCDFD7FF9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E40BBEB6978F9556956EBA16BD7C9E00 /* Pods-fdcommon1_Example.debug.xcconfig */;
@@ -755,15 +882,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B062D29CC0B6D74E15F866E105E335B /* Build configuration list for PBXNativeTarget "fdcommon1" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6436D9D2BCA57171EAA3FA2F6043C46 /* Debug */,
-				8A79B77996C1EA69D1E0E4917310D09C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6DDC071E8277CC17DC9972A6DBA9B5A4 /* Build configuration list for PBXNativeTarget "Pods-fdcommon1_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -778,6 +896,15 @@
 			buildConfigurations = (
 				A3B29184E4789981AF1085D35039E00D /* Debug */,
 				01D142A06B6BE4AB3E0F9A7FC1B135F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BC4EFF4B2C0B253FD5199536B2ADD8 /* Build configuration list for PBXNativeTarget "fdcommon1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A946B4BF7126F6EE4C2D897F09893AD /* Debug */,
+				6C9E35EEDB01BF94A1C0E8E668CCE64F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'fdcommon1/Classes/**/*'
-  s.vendored_frameworks = 'fdcommon1/Classes/FSDP.framework'
+  s.ios.vendored_frameworks = 'fdcommon1/Classes/FDFaceDetect.framework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' } 
   
   # s.resource_bundles = {
   #   'fdcommon1' => ['fdcommon1/Assets/*.png']
