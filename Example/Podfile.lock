@@ -1,0 +1,16 @@
+PODS:
+  - fdcommon1 (1.0.0)
+
+DEPENDENCIES:
+  - fdcommon1 (from `../`)
+
+EXTERNAL SOURCES:
+  fdcommon1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  fdcommon1: 7a0660dd046c226c949b5f8080e2411868ae6b6c
+
+PODFILE CHECKSUM: fbbab2df465d96bce1bf11cb05da478cb4cfc365
+
+COCOAPODS: 1.9.1

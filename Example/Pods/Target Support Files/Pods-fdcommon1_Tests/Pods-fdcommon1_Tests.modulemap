@@ -1,0 +1,6 @@
+framework module Pods_fdcommon1_Tests {
+  umbrella header "Pods-fdcommon1_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
