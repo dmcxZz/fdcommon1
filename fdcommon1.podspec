@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'fdcommon1/Classes/**/*'
   
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' } 
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64 armv7s' } 
 
   s.vendored_frameworks = 'fdcommon1/Classes/*.framework'  
 
