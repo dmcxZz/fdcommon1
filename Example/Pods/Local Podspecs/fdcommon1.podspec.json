@@ -19,7 +19,8 @@
     "ios": "9.0"
   },
   "source_files": "fdcommon1/Classes/**/*",
-  "ios": {
-    "vendored_frameworks": "fdcommon1/Classes/FSDP.framework"
-  }
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "vendored_frameworks": "fdcommon1/Classes/*.framework"
 }

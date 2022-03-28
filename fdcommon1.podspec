@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' } 
 
-  s.vendored_frameworks = 'fdcommon1/Classes/FDFaceDetect.framework'  
+  s.vendored_frameworks = 'fdcommon1/Classes/*.framework'  
 
   # s.resource_bundles = {
   #   'fdcommon1' => ['fdcommon1/Assets/*.png']

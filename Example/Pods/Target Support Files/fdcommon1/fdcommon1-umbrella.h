@@ -12,7 +12,17 @@
 
 #import "AESUtil.h"
 #import "Base64Util.h"
-#import "FSDP.h"
+#import "FDCheckRealPerson.h"
+#import "FDFaceBaseViewController.h"
+#import "FDFaceDetect.h"
+#import "FDFaceLoginViewController.h"
+#import "FDFaceRecognitionViewController.h"
+#import "FDFaceRegisterViewController.h"
+#import "FDResult.h"
+#import "NSString+Category.h"
+#import "NSString+RemoveSpace.h"
+#import "SLDropdownMenu.h"
+#import "SLSearchBar.h"
 
 FOUNDATION_EXPORT double fdcommon1VersionNumber;
 FOUNDATION_EXPORT const unsigned char fdcommon1VersionString[];

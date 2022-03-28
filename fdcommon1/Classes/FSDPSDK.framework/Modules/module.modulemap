@@ -1,0 +1,6 @@
+framework module FSDPSDK {
+  umbrella header "FSDPSDK.h"
+
+  export *
+  module * { export * }
+}
